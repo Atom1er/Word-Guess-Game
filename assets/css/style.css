@@ -5,3 +5,15 @@ body{
 .main-contain{
     margin-top: 5%;
 }
+
+.head-container{
+    margin-top: 1%;
+}
+
+.active{
+   
+}
+
+#answer{
+    border: solid 1px coral;
+}
