@@ -51,6 +51,10 @@
             // console.log(correct);
             if(Underscor.join(',') == actualWord) {
                 alert("Congratulation You Got It!!!");
+                          var trya =confirm("Try again?");
+                          if(trya){
+                location.reload(true);
+            }
                 w++;
             }
             console.log(Underscor);
@@ -64,7 +68,7 @@
         }
         if(l<1){
             alert("Game Over");
-            var tryagain =prompt("Try again?");
+            var tryagain =confirm("Try again?");
             if(tryagain){
                 location.reload(true);
             }
